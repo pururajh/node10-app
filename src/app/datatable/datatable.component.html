@@ -1,0 +1,24 @@
+
+<table id="dtable">
+<thead>
+<tr>
+<th>First Name</th>
+<th>Last Name</th>
+<th>Phone Number</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody>
+<tr  *ngFor= "let array of DataArray">
+<td>{{array.first_name}}</td>
+<td>{{array.last_name}}</td>
+<td>{{array.phone}}</td>
+<td>{{array.site}}</td>
+
+<!-- <td>{{row.users.first_name}}</td>
+<td>{{row.users.last_name}}</td>
+<td>{{row.users.phone}}</td>
+<td>{{row.users.site}}</td> -->
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,25 @@
+ [{
+      "DT_RowId": "row_1",
+      "users": {
+        "first_name": "Quynn",
+        "last_name": "Contreras",
+        "phone": "1-971-977-4681",
+        "site": "1"
+      },
+      "sites": {
+        "name": "Edinburgh"
+      }
+	},
+    {
+      "DT_RowId": "row_7",
+      "users": {
+        "first_name": "Xantha",
+        "last_name": "George",
+        "phone": "1-106-884-4754",
+        "site": "1"
+      },
+      "sites": {
+        "name": "Edinburgh"
+      }
+    }
+]

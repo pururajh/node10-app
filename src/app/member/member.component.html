@@ -1,0 +1,34 @@
+<p>
+  member works!
+  
+  {{comment | uppercase}}
+</p>
+{{memberObj.name | lowercase}}
+<br>
+today's date {{day}} - with timestamp
+<br>
+today's date {{day | date}} - without timestamp
+<br>
+<ul>
+  <li *ngFor="let i of array"> {{i}} </li>
+</ul>
+<br>
+Sort Ascending : {{array | sort: 'asc'}}
+<br>
+Sort Descending : {{array | sort: 'desc'}}
+
+<p *ngIf="flag">This is true</p>
+
+<p *ngIf="flag then template1 else template2">This is Template selection</p>
+
+<ng-template #template1>Please have the details from template1</ng-template>
+
+<ng-template #template2>Please have the details from template2</ng-template>
+
+<br>
+<br>
+<p> Member's address :{{getMemberPostalAddress()}}</p>
+
+
+
+

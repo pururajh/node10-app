@@ -1,0 +1,30 @@
+<p>
+  product works!
+</p>
+
+
+<p> Product's address :{{getProdPostalAddress()}}</p>
+
+<div id="paddressdiv">
+<ul>
+	
+	<!-- <li *ngFor="let p of paddress" >{{paddress}}</li> -->
+	<!--<li *ngFor="let p of paddress" >{{paddress[p].city}}</li> -->
+</ul>
+
+<div class="ddClass">
+	<h1>item lists:</h1>
+	<div class="addItem">
+		<input [(ngModel)]="newItem" placeholder="Add item" class="addText">
+		<button (click)="pushItem()">add</button>
+	</div>
+	<ul>
+	<li *ngFor="let i of items;let index=index">
+	{{i}}
+	<span (click)="removeItem(index)">x</span>
+	</li>
+	</ul>
+
+</div>
+
+</div>
